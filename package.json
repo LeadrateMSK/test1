@@ -1,0 +1,30 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeadrateMSK/test1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeadrateMSK/test1/issues"
+  },
+  "homepage": "https://github.com/LeadrateMSK/test1#readme",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "config/git/commitizen.js"
+    }
+  },
+  "devDependencies": {
+    "cz-customizable": "^7.0.0"
+  }
+}
